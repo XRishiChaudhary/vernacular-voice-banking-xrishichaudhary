@@ -10,7 +10,7 @@ def translate_to_bengali(text):
 # Step 2: Convert Bengali text to speech and play it
 def text_to_speech(text, filename="bengali_output.mp3"):
     tts = gTTS(text=text, lang='bn')
-    tts.save(filename)
+    tts.save("output.mp3")
 
 # --- Main ---
 if __name__ == "__main__":
