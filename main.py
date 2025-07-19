@@ -15,7 +15,7 @@ def text_to_speech(text, filename="bengali_output.mp3"):
 
 # --- Main ---
 if __name__ == "__main__":
-    english_input = input("Enter your message in English: ")
+    english_input = "Transferring 100 rupees from bank account"
     bengali_text = asyncio.run(translate_to_bengali(english_input))
     print("Translated to Bengali:", bengali_text)
     text_to_speech(bengali_text)
