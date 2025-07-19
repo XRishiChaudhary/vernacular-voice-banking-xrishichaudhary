@@ -25,7 +25,7 @@ jobs:
           pip install googletrans==4.0.0-rc1 gTTS
 
       - name: Run main.py
-        run: python main.py
+        run: python main.py "Please transfer 100 rupees to my account"
 
       - name: Upload Bengali MP3
         uses: actions/upload-artifact@v4
